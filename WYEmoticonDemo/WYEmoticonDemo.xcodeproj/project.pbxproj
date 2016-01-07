@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3BB39391C0AECA500E13388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB39381C0AECA500E13388 /* main.m */; };
+		E3BB393C1C0AECA500E13388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB393B1C0AECA500E13388 /* AppDelegate.m */; };
+		E3BB393F1C0AECA500E13388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB393E1C0AECA500E13388 /* ViewController.m */; };
+		E3BB39421C0AECA500E13388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BB39401C0AECA500E13388 /* Main.storyboard */; };
+		E3BB39441C0AECA500E13388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BB39431C0AECA500E13388 /* Assets.xcassets */; };
+		E3BB39471C0AECA500E13388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BB39451C0AECA500E13388 /* LaunchScreen.storyboard */; };
+		E3BB39501C0AECE300E13388 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3BB394F1C0AECE300E13388 /* Emoticons.bundle */; };
+		E3BB39541C0AED5200E13388 /* WYEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB39531C0AED5200E13388 /* WYEmoticon.m */; };
+		E3BB39571C0AFF8400E13388 /* WYEmoticonPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB39561C0AFF8400E13388 /* WYEmoticonPackage.m */; };
+		E3BB395B1C0B25CF00E13388 /* WYEmoticonController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB395A1C0B25CF00E13388 /* WYEmoticonController.m */; };
+		E3BB39601C0B492A00E13388 /* WYCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB395F1C0B492900E13388 /* WYCollectionViewFlowLayout.m */; };
+		E3BB39631C0B4DBC00E13388 /* WYEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB39621C0B4DBC00E13388 /* WYEmoticonCell.m */; };
+		E3BB396A1C0B686900E13388 /* WYTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB39691C0B686900E13388 /* WYTextAttachment.m */; };
+		E3BB396D1C0B6E7100E13388 /* UITextView+InsertEmoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BB396C1C0B6E7100E13388 /* UITextView+InsertEmoticon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3BB39341C0AECA500E13388 /* WYEmoticonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYEmoticonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3BB39381C0AECA500E13388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3BB393A1C0AECA500E13388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3BB393B1C0AECA500E13388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3BB393D1C0AECA500E13388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3BB393E1C0AECA500E13388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3BB39411C0AECA500E13388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3BB39431C0AECA500E13388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3BB39461C0AECA500E13388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3BB39481C0AECA500E13388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3BB394F1C0AECE300E13388 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		E3BB39521C0AED5200E13388 /* WYEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYEmoticon.h; sourceTree = "<group>"; };
+		E3BB39531C0AED5200E13388 /* WYEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYEmoticon.m; sourceTree = "<group>"; };
+		E3BB39551C0AFF8400E13388 /* WYEmoticonPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYEmoticonPackage.h; sourceTree = "<group>"; };
+		E3BB39561C0AFF8400E13388 /* WYEmoticonPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYEmoticonPackage.m; sourceTree = "<group>"; };
+		E3BB39591C0B25CF00E13388 /* WYEmoticonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYEmoticonController.h; sourceTree = "<group>"; };
+		E3BB395A1C0B25CF00E13388 /* WYEmoticonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYEmoticonController.m; sourceTree = "<group>"; };
+		E3BB395E1C0B492900E13388 /* WYCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		E3BB395F1C0B492900E13388 /* WYCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		E3BB39611C0B4DBC00E13388 /* WYEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYEmoticonCell.h; sourceTree = "<group>"; };
+		E3BB39621C0B4DBC00E13388 /* WYEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYEmoticonCell.m; sourceTree = "<group>"; };
+		E3BB39681C0B686900E13388 /* WYTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTextAttachment.h; sourceTree = "<group>"; };
+		E3BB39691C0B686900E13388 /* WYTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTextAttachment.m; sourceTree = "<group>"; };
+		E3BB396B1C0B6E7100E13388 /* UITextView+InsertEmoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+InsertEmoticon.h"; sourceTree = "<group>"; };
+		E3BB396C1C0B6E7100E13388 /* UITextView+InsertEmoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+InsertEmoticon.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3BB39311C0AECA500E13388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3BB392B1C0AECA500E13388 = {
+			isa = PBXGroup;
+			children = (
+				E3BB39361C0AECA500E13388 /* WYEmoticonDemo */,
+				E3BB39351C0AECA500E13388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3BB39351C0AECA500E13388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39341C0AECA500E13388 /* WYEmoticonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3BB39361C0AECA500E13388 /* WYEmoticonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB394E1C0AECC300E13388 /* Emoticon */,
+				E3BB393A1C0AECA500E13388 /* AppDelegate.h */,
+				E3BB393B1C0AECA500E13388 /* AppDelegate.m */,
+				E3BB393D1C0AECA500E13388 /* ViewController.h */,
+				E3BB393E1C0AECA500E13388 /* ViewController.m */,
+				E3BB39401C0AECA500E13388 /* Main.storyboard */,
+				E3BB39431C0AECA500E13388 /* Assets.xcassets */,
+				E3BB39451C0AECA500E13388 /* LaunchScreen.storyboard */,
+				E3BB39481C0AECA500E13388 /* Info.plist */,
+				E3BB39371C0AECA500E13388 /* Supporting Files */,
+			);
+			path = WYEmoticonDemo;
+			sourceTree = "<group>";
+		};
+		E3BB39371C0AECA500E13388 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39381C0AECA500E13388 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3BB394E1C0AECC300E13388 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39641C0B65EE00E13388 /* Category */,
+				E3BB39581C0B256600E13388 /* Controller */,
+				E3BB395D1C0B48B100E13388 /* View */,
+				E3BB39511C0AED3C00E13388 /* Model */,
+				E3BB394F1C0AECE300E13388 /* Emoticons.bundle */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		E3BB39511C0AED3C00E13388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39521C0AED5200E13388 /* WYEmoticon.h */,
+				E3BB39531C0AED5200E13388 /* WYEmoticon.m */,
+				E3BB39551C0AFF8400E13388 /* WYEmoticonPackage.h */,
+				E3BB39561C0AFF8400E13388 /* WYEmoticonPackage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3BB39581C0B256600E13388 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39591C0B25CF00E13388 /* WYEmoticonController.h */,
+				E3BB395A1C0B25CF00E13388 /* WYEmoticonController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3BB395D1C0B48B100E13388 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB395E1C0B492900E13388 /* WYCollectionViewFlowLayout.h */,
+				E3BB395F1C0B492900E13388 /* WYCollectionViewFlowLayout.m */,
+				E3BB39611C0B4DBC00E13388 /* WYEmoticonCell.h */,
+				E3BB39621C0B4DBC00E13388 /* WYEmoticonCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3BB39641C0B65EE00E13388 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E3BB39681C0B686900E13388 /* WYTextAttachment.h */,
+				E3BB39691C0B686900E13388 /* WYTextAttachment.m */,
+				E3BB396B1C0B6E7100E13388 /* UITextView+InsertEmoticon.h */,
+				E3BB396C1C0B6E7100E13388 /* UITextView+InsertEmoticon.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3BB39331C0AECA500E13388 /* WYEmoticonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3BB394B1C0AECA500E13388 /* Build configuration list for PBXNativeTarget "WYEmoticonDemo" */;
+			buildPhases = (
+				E3BB39301C0AECA500E13388 /* Sources */,
+				E3BB39311C0AECA500E13388 /* Frameworks */,
+				E3BB39321C0AECA500E13388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYEmoticonDemo;
+			productName = WYEmoticonDemo;
+			productReference = E3BB39341C0AECA500E13388 /* WYEmoticonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3BB392C1C0AECA500E13388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = wangyan;
+				TargetAttributes = {
+					E3BB39331C0AECA500E13388 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E3BB392F1C0AECA500E13388 /* Build configuration list for PBXProject "WYEmoticonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3BB392B1C0AECA500E13388;
+			productRefGroup = E3BB39351C0AECA500E13388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3BB39331C0AECA500E13388 /* WYEmoticonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3BB39321C0AECA500E13388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BB39471C0AECA500E13388 /* LaunchScreen.storyboard in Resources */,
+				E3BB39501C0AECE300E13388 /* Emoticons.bundle in Resources */,
+				E3BB39441C0AECA500E13388 /* Assets.xcassets in Resources */,
+				E3BB39421C0AECA500E13388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3BB39301C0AECA500E13388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BB393F1C0AECA500E13388 /* ViewController.m in Sources */,
+				E3BB396D1C0B6E7100E13388 /* UITextView+InsertEmoticon.m in Sources */,
+				E3BB396A1C0B686900E13388 /* WYTextAttachment.m in Sources */,
+				E3BB39631C0B4DBC00E13388 /* WYEmoticonCell.m in Sources */,
+				E3BB39541C0AED5200E13388 /* WYEmoticon.m in Sources */,
+				E3BB393C1C0AECA500E13388 /* AppDelegate.m in Sources */,
+				E3BB39601C0B492A00E13388 /* WYCollectionViewFlowLayout.m in Sources */,
+				E3BB39571C0AFF8400E13388 /* WYEmoticonPackage.m in Sources */,
+				E3BB39391C0AECA500E13388 /* main.m in Sources */,
+				E3BB395B1C0B25CF00E13388 /* WYEmoticonController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3BB39401C0AECA500E13388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BB39411C0AECA500E13388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3BB39451C0AECA500E13388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3BB39461C0AECA500E13388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3BB39491C0AECA500E13388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3BB394A1C0AECA500E13388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3BB394C1C0AECA500E13388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYEmoticonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.WYEmoticonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3BB394D1C0AECA500E13388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYEmoticonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snow.WYEmoticonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3BB392F1C0AECA500E13388 /* Build configuration list for PBXProject "WYEmoticonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BB39491C0AECA500E13388 /* Debug */,
+				E3BB394A1C0AECA500E13388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3BB394B1C0AECA500E13388 /* Build configuration list for PBXNativeTarget "WYEmoticonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BB394C1C0AECA500E13388 /* Debug */,
+				E3BB394D1C0AECA500E13388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3BB392C1C0AECA500E13388 /* Project object */;
+}
