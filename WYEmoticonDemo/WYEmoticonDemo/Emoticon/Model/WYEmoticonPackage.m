@@ -104,7 +104,6 @@ static NSArray *packages;
     return self;
 }
 
-#warning 点击空白按钮的操作
 /// 添加常用数组
 + (void)addFavoriteEmoticon:(WYEmoticon *)emoticon {
     // 1.获取常用表情包数组

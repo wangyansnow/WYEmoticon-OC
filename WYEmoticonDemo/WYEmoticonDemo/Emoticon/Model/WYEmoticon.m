@@ -60,7 +60,7 @@
     // 1.读取16进制字符串
     NSScanner *scanner = [NSScanner scannerWithString:code];
     // 2.定义一个UInt32的整型接收字符串长度
-    UInt32 count = 0;
+    unsigned int count = 0;
     [scanner scanHexInt:&count];
 //    unsigned long count = strtoul([code UTF8String], 0, 16);
     
